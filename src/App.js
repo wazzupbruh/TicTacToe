@@ -1,12 +1,14 @@
 import React from "react";
+import Board from "./components/Board"
 
+// eslint-disable-next-line arrow-body-style
 const App = () => {
   return(
-    <>
-      <h1>This is h1</h1>
-      <p>This is p</p>
-    </>
+    <div>
+      <h1>TIC TAC TOE</h1>
+      <Board />
+    </div>
   );
-}
+};
 
 export default App;
