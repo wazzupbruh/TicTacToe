@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "npm run clear && nparcel build index.html",
+    "build": "npm run clear && parcel build index.html",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write src/**/*.js",
     "format:lint": "npm run format && npm run lint",
@@ -13,29 +13,20 @@
   "license": "MIT",
   "dependencies": {
     "node-sass": "^5.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@parcel/optimizer-cssnano": "^2.0.0-nightly.594",
-    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.594",
-    "@parcel/packager-css": "^2.0.0-nightly.594",
-    "@parcel/packager-html": "^2.0.0-nightly.594",
-    "@parcel/transformer-css": "^2.0.0-nightly.594",
-    "@parcel/transformer-html": "^2.0.0-nightly.594",
-    "@parcel/transformer-postcss": "^2.0.0-nightly.594",
-    "@parcel/transformer-posthtml": "^2.0.0-nightly.594",
+    "@babel/core": "^7.13.1",
     "babel-eslint": "^10.1.0",
     "babel-preset-nano-react-app": "^0.1.0",
     "eslint": "^7.20.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.22.0",
     "parcel": "^1.12.4",
-    "postcss": "^8.2.6",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2"
   },
